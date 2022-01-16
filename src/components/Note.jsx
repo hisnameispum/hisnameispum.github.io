@@ -4,8 +4,8 @@ function Note(){
     var noteHeader = "Note Heading";
     var noteContent = "Note content";
     return  (
-    <div>
-        <h4>{noteHeader}</h4>
+    <div className="note">
+        <h1>{noteHeader}</h1>
         <p>{noteContent}</p>
     </div>);
 }

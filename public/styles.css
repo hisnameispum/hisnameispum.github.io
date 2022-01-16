@@ -11,6 +11,10 @@ body {
   padding: 0 16px;
 }
 
+.footer{
+  alignment: bottom;
+}
+
 header {
   background-color: #f5ba13;
   margin: auto -16px;
