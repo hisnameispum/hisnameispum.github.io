@@ -1,9 +1,12 @@
 import React from "react";
 
-function Footer(){
-    var date = new Date();
-    var year = date.getFullYear();
-    return <footer>Copyright &copy; {year}. <br/>Created By Sirasit Thitirattanakorn</footer>
+function Footer() {
+    const year = new Date().getFullYear();
+    return (
+        <footer>
+            <p>Copyright ⓒ {year} Sirasit Thitirattanakorn</p>
+        </footer>
+    );
 }
 
 export default Footer;
